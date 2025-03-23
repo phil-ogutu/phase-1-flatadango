@@ -1,0 +1,66 @@
+section.header{
+    background-color: rgb(44, 43, 43);
+    width: 100vw;
+    height: 8vh;
+}
+section.header .logo img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    padding: 25px;
+}
+.header .logo .logo-text-1{
+    position: absolute;
+    font-size: 1.2rem;
+    color: rgb(123, 123, 208);
+    top: 30px;
+}
+.header .logo .logo-text-2{
+    position: absolute;
+    font-size: 1.2rem;
+    top: 55px;
+    color: rgb(189, 187, 187);
+}
+section.movies{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+}
+section.movies .cards{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: azure;
+    
+}
+section.movies .cards .card-1{
+    flex: 1;
+    height: 100%;
+    background-color: gray;
+    display: flex;
+    align-items: start;
+    justify-content: right;
+}
+section.movies .cards .card-2{
+    flex: 1;
+    height: 100%;
+    background-color: gray;
+}
+section.movies .cards .card-2 img{
+    width: 100vw;
+    height: 80%;
+    background-color: aliceblue;
+}
+section.movies .cards .card-3{
+    flex: 1;
+    height: 100%;
+    background-color: gray;
+}
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid black;
+    font-size: 35px;
+}
